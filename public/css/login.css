@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(23, 23, 26);
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: black;
+    padding: 40px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 450px;
+    min-height: 550px;
+    box-sizing: border-box;
+    border: 2px solid #28282b;
+
+    position: relative; 
+}
+
+.login-card {
+    width: 100%;
+}
+
+.login-header {
+    text-align: center;
+    width: 100%;
+}
+
+.login-header h1 {
+    margin-top: 0;           
+    font-size: 30px;    
+    margin-bottom: 10px;
+    color: rgb(251, 251, 251);
+}
+
+.login-header h2 {
+    margin-top: 0;           
+    font-size: 15px;    
+    margin-bottom: 0;
+    color: #434343;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-buttons-container {
+    display: flex;
+    gap: 15px; 
+    width: calc(100% - 80px);
+    position: absolute;       
+    bottom: 40px;       
+    left: 40px;
+    justify-content: center;
+}
+
+.login-btn {
+    flex: 1;
+    background-color: rgb(23, 23, 26);
+    border: 1px solid #28282b;
+    border-radius: 15px;
+    padding: 15px 20px;
+    text-decoration: none;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+
+    color: white;
+    font-size: 15px;
+    font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.login-btn:hover {
+    background-color: rgb(23, 23, 26);
+    border-color: rgb(36, 221, 70);
+    transform: scale(1.05); 
+}
+
+.register-btn {
+    flex: 1;
+    background-color: rgb(23, 23, 26);
+    border: 1px solid #28282b;
+    border-radius: 15px;
+    padding: 15px 20px;
+    text-decoration: none;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+
+    color: white;
+    font-size: 15px;
+    font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.register-btn:hover {
+    background-color: rgb(23, 23, 26);
+    border-color: rgb(36, 221, 70);
+    transform: scale(1.05); 
+}
+
+.tos {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.tos p {
+    font-size: 12px;
+    color: #8e9297;
+    margin: 1;
+}
+
+.tos a {
+    color: #00aff4; 
+    text-decoration: none; 
+    transition: text-decoration 0.2s ease;
+}
+
+.tos a:hover {
+    text-decoration: underline; 
+}
